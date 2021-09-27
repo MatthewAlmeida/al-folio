@@ -5,6 +5,7 @@
 author = {Almeida, Matthew and Zhuang, Yong and Ding, Wei and Crouter, Scott E. and Chen, Ping},
 title = {Mitigating Class-Boundary Label Uncertainty to Reduce Both Model Bias and Variance},
 year = {2021},
+bibtex_show = {true},
 issue_date = {April 2021},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
@@ -33,16 +34,20 @@ way, uncertain samples have a smaller contribution to the objective function of 
 model’s learning algorithm and exert less pull on the decision boundary. In a real-world
 physical activity recognition case study, the data present many labeling challenges,
 and we show that this new approach improves model performance and reduces model variance.},
-journal = {ACM Trans. Knowl. Discov. Data},
+journal = {ACM Transactions on Knowledge Discovery from Data (TKDD),},
 month = mar,
 articleno = {27},
 numpages = {18},
-keywords = {neural networks, Bias and variance, label uncertainty}
+keywords = {neural networks, Bias and variance, label uncertainty},
+pdf = {almeida2021mitigating.pdf},
+abbr = {TKDD}
 }
 
 @inproceedings{baldo2019mapping,
+bibtex_show = {true},
 author = {Baldo, Elisabeth and Almeida, Matthew},
 title = {Mapping Irrigated Croplands Using HLS Time Series Data},
+booktitle = {2019 Fall Meeting, AGU, San Francisco, CA.},
 year = {2019},
 organization = {AGU},
 address = {San Francisco, CA, US},
@@ -74,7 +79,10 @@ with an immediate, and interpretable uncertainty. Pixel-level predictions are al
 valuable for their ability to respond to subfield variability. Future work will 
 incorporate similar training data from farmed land in South America and Australia, with 
 the expectation that more diverse training data will widen the model’s applicability 
-and move us closer to a globally performant irrigation mapping system.}
+and move us closer to a globally performant irrigation mapping system.},
+abbr = {AGU},
+url={https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/544355},
+slides={544355-Mapping-Irrigated-Croplands-Using-HLS-Time-Series-Data.pptx},
 }
 
 @inproceedings{zhuang2017crime,
@@ -83,10 +91,14 @@ and move us closer to a globally performant irrigation mapping system.}
   title = {Crime hot spot forecasting: A recurrent model with spatial and temporal information},
   author = {Zhuang, Yong and Almeida, Matthew and Morabito, Melissa and Ding, Wei},
   booktitle = {2017 IEEE International Conference on Big Knowledge (ICBK)},
+  abstract = {Crime is a major social problem in the United States, threatening public safety 
+  and disrupting the economy. Understanding patterns in criminal activity allows for the 
+  prediction of future high-risk crime "hot spots" and enables police precincts to more 
+  effectively allocate officers to prevent or respond to incidents. With the ever-increasing 
+  ability of states and organizations to collect and store detailed data tracking crime occurrence, a significant amount of data with spatial and temporal information has been collected. How to use the benefit of massive spatial-temporal information to precisely predict the regional crime rates becomes necessary. The recurrent neural network model has been widely proven effective for detecting the temporal patterns in a time series. In this study, we propose the Spatio-Temporal neural network (STNN) to precisely forecast crime hot spots with embedding spatial information. We evaluate the model using call-for-service data provided by the Portland, Oregon Police Bureau (PPB) for a 5-year period from March 2012 through the end of December 2016. We show that our STNN model outperforms a number of classical machine learning approaches and some alternative neural network architectures.
+},
   pages = {143--150},
   year = {2017},
   organization = {IEEE},
-  pdf = {zhuang2017crime/paper.pdf},
-  poster = {zhuang2017crime/poster.pdf},
-  slides = {zhuang2017crime/slides.pdf}
+  pdf = {zhuang2017crime.pdf},
 }
