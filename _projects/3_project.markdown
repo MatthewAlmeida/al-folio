@@ -1,7 +1,7 @@
 ---
 layout: page
 title: project 3
-description: a project that redirects to another website
+description: Labeling Challenges: Activity Recognition and Music Genre Recognition
 img: /assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
