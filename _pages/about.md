@@ -11,8 +11,12 @@ profile:
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I have recently graduated with a Ph.D. in Applied Machine Learning (Computer Science) from the University of Massachusetts Boston and am now looking for the role that will begin the next chapter of my career.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+For the last four years I have worked as a Research Assistant in the Knowledge Discovery Lab at UMB, where we took on a variety of data science and machine learning projects in support of collaborators across a variety of disciplines, including human activity recognition, flood risk prediction, irrigation mapping, and many others. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In terms of modeling, I’ve been focused on deep neural networks in PyTorch recently but have used a breadth of ML techniques over my time in the Ph.D. program and during my Data Science internship at Indigo Ag, where I developed and trained a field-level irrigation prediction model using satellite imagery and associated weather data. 
+
+Additionally, prior to my return to academia, I worked as an AVP in Catastrophe Risk Modeling (commercial property) at Allied World Assurance, where my team and I were responsible for collecting and maintaining the store of the company’s in-force direct property building data and providing views and metrics to upper management to inform risk mitigation strategy. 
+
+I'm just getting things spun up on this personal site, and plan to be putting up articles on previous projects and new directions in the coming weeks.
